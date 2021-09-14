@@ -80,8 +80,15 @@ section{
 
 
 /* task */
+
+.target{
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
 .task{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .arrow{
@@ -102,6 +109,17 @@ section{
     color: green;
 }
 
+.cross:after{
+    display: inline-block;
+    content: "\2718";
+    font-size: 12px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px 2px;
+    padding-bottom: 2px;
+    color: red;
+}
+
 .text_target{
     font-weight:bold;
     color: rgba(0, 0, 0, 0.7);
@@ -111,7 +129,8 @@ section{
 .type_target{
     display: inline-block;
     height: 25px;
-    width: 65px;
+    /* width: 65px; */
+    padding: 0px 7px;
     font-size: 9px;
     font-weight: bold;
     color: white;
@@ -127,8 +146,18 @@ section{
     background-color:rgb(16, 155, 241);
 }
 
+.Q1_Goals{
+    background-color: blueviolet;
 
+}
+.Recruiting{
+    background-color: lightseagreen ;
 
+}
+
+.Mobile{
+    background-color: orange;
+}
 
 
 
