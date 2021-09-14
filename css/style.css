@@ -24,7 +24,7 @@ nav{
     border-bottom: 2px solid lightslategrey;
 }
  main{
-     padding-left: 40px;
+     padding-left: 40px;    
  }
 
 
@@ -65,13 +65,24 @@ header img{
     
 }
 
-.lightblue {
+.bottom_add.lightblue {
     background-color: rgb(16, 155, 241);
     color: white;
     border: none;
 }
 
-/* main */
+
+/* section */
+
+section{
+    margin: 30px 0;
+}
+
+
+/* task */
+.task{
+    margin-bottom: 10px;
+}
 
 .arrow{
     display: inline-block;
@@ -79,6 +90,8 @@ header img{
     font-size: 18px;
 }
 
+
+/* target */
 .check:after{
     display: inline-block;
     content: "\2714";
@@ -88,6 +101,32 @@ header img{
     padding: 1px 2px;
     color: green;
 }
+
+.text_target{
+    font-weight:bold;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 5px;
+}
+
+.type_target{
+    display: inline-block;
+    height: 25px;
+    width: 65px;
+    font-size: 9px;
+    font-weight: bold;
+    color: white;
+    line-height: 25px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 3px;
+}
+
+/* mark type_target */
+.editorial{
+    background-color:rgb(16, 155, 241);
+}
+
 
 
 
