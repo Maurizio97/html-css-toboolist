@@ -23,6 +23,10 @@ nav{
     padding: 15px 3px 10px 40px;
     border-bottom: 2px solid lightslategrey;
 }
+ main{
+     padding-left: 40px;
+ }
+
 
 /* header */
 
@@ -69,11 +73,11 @@ header img{
 
 /* main */
 
-main{
-    margin-left: 35px;
-    padding:
+.arrow{
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 18px;
 }
-
 
 
 
