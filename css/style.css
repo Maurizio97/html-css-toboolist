@@ -11,6 +11,7 @@
     width: 80%;
     margin: 35px auto;
     background-color: white;
+    border-radius: 10px;
 }
 
 body{
@@ -19,9 +20,8 @@ body{
 }
 
 nav{
-    margin-left: 35px;
-    padding: 15px 3px 10px 3px;
-   
+    padding: 15px 3px 10px 40px;
+    border-bottom: 2px solid lightslategrey;
 }
 
 /* header */
@@ -66,6 +66,15 @@ header img{
     color: white;
     border: none;
 }
+
+/* main */
+
+main{
+    margin-left: 35px;
+    padding:
+}
+
+
 
 
 
