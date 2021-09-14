@@ -159,6 +159,17 @@ section{
     background-color: orange;
 }
 
+.none{
+    display: none;
+}
+
+.Website{
+    background-color: mediumvioletred;
+}
+
+.Sales{
+    background-color: rgb(150, 218, 23);
+}
 
 
 
