@@ -7,50 +7,51 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 35px auto;
     background-color: white;
     border-radius: 10px;
 }
 
-body{
+body { 
     background-color: lightgray;
     height: 100%;
 }
 
-nav{
+nav {
     padding: 15px 3px 10px 40px;
     border-bottom: 2px solid lightslategrey;
 }
- main{
-     padding-left: 40px;    
- }
+main {
+    padding-left: 40px;    
+}
 
 
+ 
 /* header */
-
-.container_logo{
+header {
     padding: 10px 10px 10px 25px;
     height: 80px;
     background-color: white;
 }
 
-header img{
+header img {
     line-height: 60px;
     vertical-align: middle;
 }
 
-#logo_text{
+h1 {
     display: inline-block;
     font-size: 40px;
     line-height: 60px;
     vertical-align: middle;
 }
+/* /header */
+
 
 /* nav */
-
-.bottom_add{
+.bottom_add {
     display: inline-block;
     border: solid 2px lightgrey;
     border-radius: 5px;
@@ -61,8 +62,7 @@ header img{
     height: 30px;
     width: 80px;
     line-height: 30px;
-    vertical-align: middle;
-    
+    vertical-align: middle;   
 }
 
 .bottom_add.lightblue {
@@ -70,36 +70,33 @@ header img{
     color: white;
     border: none;
 }
+/* /nav */
 
 
 /* section */
-
-section{
+section {
     margin: 30px 0;
 }
 
 
 /* task */
 
-.target{
+.target {
     padding-top: 8px;
     padding-bottom: 8px;
 
 }
 
-.task{
-    /* margin-bottom: 10px; */
-}
-
-.arrow{
+.arrow {
     display: inline-block;
     transform: rotate(90deg);
     font-size: 18px;
 }
+/* /task */
 
 
 /* target */
-.check:after{
+.check:after {
     display: inline-block;
     content: "\2714";
     font-size: 12px;
@@ -109,7 +106,7 @@ section{
     color: green;
 }
 
-.cross:after{
+.cross:after {
     display: inline-block;
     content: "\2718";
     font-size: 12px;
@@ -120,16 +117,15 @@ section{
     color: red;
 }
 
-.text_target{
+.text_target {
     font-weight:bold;
     color: rgba(0, 0, 0, 0.7);
     margin-left: 5px;
 }
 
-.type_target{
+.type_target {
     display: inline-block;
     height: 25px;
-    /* width: 65px; */
     padding: 0px 7px;
     font-size: 9px;
     font-weight: bold;
@@ -140,36 +136,38 @@ section{
     border-radius: 10px;
     margin-left: 3px;
 }
+/* /target */
+
 
 /* mark type_target */
-.editorial{
+.editorial {
     background-color:rgb(16, 155, 241);
 }
 
-.Q1_Goals{
+.q1_goals {
     background-color: blueviolet;
-
 }
-.Recruiting{
+
+.recruiting {
     background-color: lightseagreen ;
-
 }
 
-.Mobile{
+.mobile {
     background-color: orange;
 }
 
-.none{
+.none {
     display: none;
 }
 
-.Website{
+.website {
     background-color: mediumvioletred;
 }
 
-.Sales{
+.sales {
     background-color: rgb(150, 218, 23);
 }
+/* /mark type_target */
 
 
 
