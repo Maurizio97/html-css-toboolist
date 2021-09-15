@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -51,7 +51,7 @@ h1 {
 
 
 /* nav */
-.bottom_add {
+bottom {
     display: inline-block;
     border: solid 2px lightgrey;
     border-radius: 5px;
@@ -66,12 +66,12 @@ h1 {
     cursor: pointer; 
 }
 
-
-.bottom_add.lightblue {
+bottom.lightblue {
     background-color: rgb(16, 155, 241);
     color: white;
     border: none;
     line-height: 30px;
+    margin-right: 8px;
 }
 /* /nav */
 
