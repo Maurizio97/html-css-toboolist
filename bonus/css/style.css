@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 35px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+body { 
+    background-color: lightgray;
+    height: 100%;
+}
+
+nav {
+    padding: 15px 3px 10px 40px;
+    border-bottom: 2px solid lightslategrey;
+}
+main {
+    padding-left: 40px;    
+}
+
+
+ 
+/* header */
+header {
+    padding: 10px 10px 10px 25px;
+    height: 80px;
+    background-color: white;
+}
+
+header img {
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+/* /header */
+
+
+/* nav */
+bottom {
+    display: inline-block;
+    border: solid 2px lightgrey;
+    border-radius: 5px;
+    font-weight: bold;
+    color: lightgrey;
+    font-size: 14px;
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    line-height: 26px;
+    vertical-align: middle;  
+    cursor: pointer; 
+}
+
+bottom.lightblue {
+    background-color: rgb(16, 155, 241);
+    color: white;
+    border: none;
+    line-height: 30px;
+    margin-right: 8px;
+}
+/* /nav */
+
+
+/* section */
+section {
+    margin: 30px 0;
+}
+
+
+/* task */
+.target {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.arrow {
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 18px;
+}
+/* /task */
+
+
+/* target */
+.check:after {
+    display: inline-block;
+    content: "\2714";
+    font-size: 12px;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: green;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.cross:after {
+    display: inline-block;
+    content: "\2718";
+    font-size: 12px;
+    border: 2px solid red;
+    border-radius: 50%;
+    color: red;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.text_target {
+    font-weight:bold;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 5px;
+    font-size: 16;
+}
+
+.type_target {
+    display: inline-block;
+    height: 25px;
+    padding: 0px 7px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    line-height: 25px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 3px;
+}
+/* /target */
+
+
+/* mark type_target */
+.editorial {
+    background-color:rgb(16, 155, 241);
+}
+
+.q1_goals {
+    background-color: blueviolet;
+}
+
+.recruiting {
+    background-color: lightseagreen ;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.none {
+    display: none;
+}
+
+.website {
+    background-color: mediumvioletred;
+}
+
+.sales {
+    background-color: rgb(150, 218, 23);
+}
+/* /mark type_target */
+
+
+
+
