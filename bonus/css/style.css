@@ -51,12 +51,12 @@ h1 {
 
 
 /* nav */
-bottom {
+button {
     display: inline-block;
-    border: solid 2px lightgrey;
+    border: solid 2px rgb(180, 180, 180);
     border-radius: 5px;
     font-weight: bold;
-    color: lightgrey;
+    color: rgb(192, 189, 189);
     font-size: 14px;
     text-align: center;
     height: 30px;
@@ -64,14 +64,33 @@ bottom {
     line-height: 26px;
     vertical-align: middle;  
     cursor: pointer; 
+    margin-right: 8px;
+    box-shadow: 1.5px 4px rgb(192, 189, 189);
+    outline: none;
 }
 
-bottom.lightblue {
+button.lightblue:hover {
+    background-color: rgb(16, 155, 241);
+    /* color: white;
+    border: none;
+    line-height: 30px; */
+}
+
+button:active{
     background-color: rgb(16, 155, 241);
     color: white;
     border: none;
     line-height: 30px;
-    margin-right: 8px;
+    box-shadow: 0 1px rgb(192, 189, 189);
+    transform: translateY(3px);
+}
+
+button:focus {
+    background-color: rgb(16, 155, 241);
+    color: white;
+    border: none;
+    line-height: 30px;
+    box-shadow: none;
 }
 /* /nav */
 
@@ -182,3 +201,13 @@ section {
 
 
 
+/* test */
+
+#click_me {
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+#click_me:before {
+    content: '\2190';
+}
